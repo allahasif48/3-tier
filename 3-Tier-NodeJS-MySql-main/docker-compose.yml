@@ -28,6 +28,7 @@ services:
       DB_NAME: test_db
     depends_on:
       - mysql
+    restart: always
 
   frontend:
     build:
